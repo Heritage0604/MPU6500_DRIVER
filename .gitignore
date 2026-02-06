@@ -1,0 +1,83 @@
+# =========================
+# OS junk files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Temporary / editor files
+# =========================
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# =========================
+# ESP-IDF build output
+# =========================
+build/
+**/build/
+*.bin
+*.elf
+*.map
+*.o
+*.a
+*.out
+*.exe
+flasher_args.json
+
+# ESP-IDF generated configs
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+.espressif/
+
+# =========================
+# CMake generated files
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# =========================
+# Python artifacts
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# IDE / editor settings
+# =========================
+.vscode/
+.devcontainer/
+*.code-workspace
+*.workspace
+*.user
+*.suo
+*.sln.docstates
+
+# =========================
+# Language server caches
+# =========================
+.clangd/
+.ccls-cache/
+compile_commands.json
